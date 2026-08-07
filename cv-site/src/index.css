@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color: #060c0b;
+    color: #1C1B19;
+    font-family: 'IBM Plex Sans', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+  :focus-visible {
+    outline: 2px solid #7C63C9;
+    outline-offset: 2px;
+  }
+  ::selection {
+    background: #C7B8F2;
+    color: #1C1B19;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* subtle dotted desktop texture */
+.desktop-bg {
+  background-image: radial-gradient(circle, #B4E6DC 1px, transparent 1px);
+  background-size: 24px 24px;
+}
