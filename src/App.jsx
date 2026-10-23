@@ -26,7 +26,7 @@ const WINDOWS = [
     id: "articles",
     title: "articles.txt",
     label: "Articles",
-    icon: <IconArticles />,
+    icon: <img src="3.png" alt="Articles" />,
     initial: { x: 60, y: 320 },
     rotate: 0.8,
     width: 340,
@@ -36,9 +36,9 @@ const WINDOWS = [
     id: "newsletter",
     title: "newsletter.sh",
     label: "Newsletter",
-    icon: <IconNewsletter />,
+    icon: <img src="4.png" alt="Newsletter" />,
     initial: { x: 420, y: 300 },
-    rotate: -0.6,
+    rotate: -0.6, 
     width: 280,
     render: () => <NewsletterPanel />,
   },
@@ -46,7 +46,7 @@ const WINDOWS = [
     id: "socials",
     title: "socials.sh",
     label: "Socials",
-    icon: <IconSocials />,
+    icon: <img src="5.png" alt="Socials" />,
     initial: { x: 40, y: 550 },
     rotate: -1,
     width: 240,
@@ -66,7 +66,7 @@ const WINDOWS = [
     id: "clients",
     title: "clients.txt",
     label: "I work with",
-    icon: <IconClients />,
+    icon: <img src="7.png" alt="Clients" />,
     initial: { x: 340, y: 560 },
     rotate: 0.6,
     width: 280,
@@ -102,7 +102,7 @@ function App() {
 
   return (
     <div className="min-h-screen relative overflow-hidden">
-      <div className="fixed inset-0 -z-10 bg-mint flex items-center justify-center bg-[url('/background.png')] bg-cover bg-center opacity-60 brightness-1 saturate-150 contrast-125 ">
+      <div className="fixed inset-0 -z-10 bg-mint flex items-center justify-center bg-[url('/2.png')] bg-cover bg-center">
       </div>
 
       <MenuBar />
@@ -148,7 +148,7 @@ function App() {
         )}
       </main>
 
-      <span className="fixed top-3 right-4 sm:right-6 z-40 font-mono text-[10px] text-inkfaint">
+      <span className="fixed top-3 right-4 sm:right-6 z-40 font-mono text-[15px] text-white">
         © {new Date().getFullYear()} {profile.name}
       </span>
 
