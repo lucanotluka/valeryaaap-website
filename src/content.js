@@ -20,14 +20,7 @@ dove raccolgo quello che scrivo, faccio, e le persone con cui lavoro.
 Girati pure tra le finestre. Buona visita.`,
   date: "01.08.2026",
 };
- 
-export const about = `I'm a designer based in Lecco, working across brand, product, and
-interactive experiences. I care about the small details most people
-never consciously notice, but always feel.
- 
-Previously I worked on [things]. These days I split my time between
-freelance projects and things I build for myself, like this site.`;
- 
+
 // 1. Articles written around the internet
 export const articles = [
   {
@@ -54,13 +47,13 @@ export const articles = [
 export const newsletter = {
   name: "Your Newsletter Name",
   description: "A short line about what the newsletter covers and how often it lands.",
-  url: "https://yourname.substack.com",
+  url: "https://yappingdigitale.com",
 };
  
 // 3. Socials
 export const socials = [
-  { label: "Instagram", value: "@yourname", href: "https://instagram.com/yourname" },
-  { label: "TikTok", value: "@yourname", href: "https://tiktok.com/@yourname" },
+  { label: "Instagram", value: "@valeryaaap", href: "https://instagram.com/valeryaaap" },
+  { label: "TikTok", value: "@valeryaaap", href: "https://tiktok.com/@valeryaaap" },
 ];
  
 // 5. Clients / who I work with

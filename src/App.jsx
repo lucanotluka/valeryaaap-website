@@ -3,7 +3,6 @@ import Window from "./components/Window";
 import MenuBar from "./components/MenuBar";
 import Dock from "./components/Dock";
 import WelcomePanel from "./components/panels/WelcomePanel";
-import AboutPanel from "./components/panels/AboutPanel";
 import ArticlesPanel from "./components/panels/ArticlesPanel";
 import NewsletterPanel from "./components/panels/NewsletterPanel";
 import SocialsPanel from "./components/panels/SocialsPanel";
@@ -15,7 +14,6 @@ import {
   IconArticles,
   IconNewsletter,
   IconSocials,
-  IconAbout,
   IconClients,
   IconContact,
 } from "./icons";
@@ -51,16 +49,6 @@ const WINDOWS = [
     rotate: -1,
     width: 240,
     render: () => <SocialsPanel />,
-  },
-  {
-    id: "about",
-    title: "about.txt",
-    label: "About",
-    icon: <IconAbout />,
-    initial: { x: 420, y: 90 },
-    rotate: 1,
-    width: 340,
-    render: () => <AboutPanel />,
   },
   {
     id: "clients",

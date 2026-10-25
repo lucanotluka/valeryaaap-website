@@ -44,18 +44,6 @@ export function IconSocials() {
   );
 }
 
-export function IconAbout() {
-  // simple face / avatar
-  return (
-    <Grid>
-      <rect x={3} y={2} width={10} height={12} fill="none" stroke="currentColor" strokeWidth="1" />
-      <rect x={6} y={6} width={1} height={1} fill="currentColor" />
-      <rect x={9} y={6} width={1} height={1} fill="currentColor" />
-      <rect x={6} y={10} width={4} height={1} fill="currentColor" />
-    </Grid>
-  );
-}
-
 export function IconClients() {
   // briefcase
   return (

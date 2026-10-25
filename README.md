@@ -3,14 +3,13 @@
 A minimal personal site with a floating-windows interaction, inspired by
 poolsuite.net but restrained: cream background, one accent color, Space
 Grotesk + IBM Plex type, draggable "windows" that behave like desktop
-files (`about.txt`, `works.fig`, `contact.sh`).
+files (`works.fig`, `contact.sh`).
 
 ## Edit your content
 
 Everything you need to change is in **`src/content.js`**:
 
 - `profile` — your name, role, tagline, location
-- `about` — your bio paragraph(s)
 - `links` — email, socials, résumé link
 - `works` — your projects (title, year, tags, description, image, url)
 
@@ -91,17 +90,10 @@ src/
 
 
 TODO
-- sfondo tipo polaroid, fiori e scarpette di danza, videocassette
-- azzurrino, ottanio, rosa, meno biancoso
-- togli la banda sopra, lascia come poolsuite.net
+- Contatti: metti png di "cartella" con link interarttivi e linktr.ee/valeryaaap
+- Articoli: tutti quelli mandati; immagine anteprima, titolo e prime righe. Sistema margini
+- Newsletter: stile "pop-up" al click
+- Social: anteprima png, clickabile all'ultimo post. scrivi didascalia sotto anteprima.
+- Portfolio Clienti: a mo' di Diario con le frecce, png clickabile, quindi aprire le finestre tipo pop-up
 
-- menu icone pixelate centrale in basso tipo macOS
-- on startup, scheda di benvenuto di presentazione, UI pagina di diario
-- menu:
-1. articoli scritti in giro
-2. newsletter sua
-3. socials: ig tk
-4. chi sono
-5. con chi lavoro/lavori fatti ad oggi
-6. contatti
-(7. giradischi x musica)
+- Generale: migliore gestione e UX delle finestre. Gestione relativa alla schermata, non far sparire le finestre nel wallpaper scorrevole.
