@@ -10,13 +10,6 @@ import ClientsPanel from "./components/panels/ClientsPanel";
 import ContactPanel from "./components/panels/ContactPanel";
 import { useWindowManager } from "./useWindowManager";
 import { profile } from "./content";
-import {
-  IconArticles,
-  IconNewsletter,
-  IconSocials,
-  IconClients,
-  IconContact,
-} from "./icons";
 
 // The 6 dock items, in the exact order requested.
 const WINDOWS = [
@@ -26,7 +19,6 @@ const WINDOWS = [
     label: "Articles",
     icon: <img src="3.png" alt="Articles" />,
     initial: { x: 60, y: 320 },
-    rotate: 0.8,
     width: 340,
     render: () => <ArticlesPanel />,
   },
@@ -36,7 +28,6 @@ const WINDOWS = [
     label: "Newsletter",
     icon: <img src="4.png" alt="Newsletter" />,
     initial: { x: 420, y: 300 },
-    rotate: -0.6, 
     width: 280,
     render: () => <NewsletterPanel />,
   },
@@ -46,7 +37,6 @@ const WINDOWS = [
     label: "Socials",
     icon: <img src="5.png" alt="Socials" />,
     initial: { x: 40, y: 550 },
-    rotate: -1,
     width: 240,
     render: () => <SocialsPanel />,
   },
@@ -56,7 +46,6 @@ const WINDOWS = [
     label: "I work with",
     icon: <img src="7.png" alt="Clients" />,
     initial: { x: 340, y: 560 },
-    rotate: 0.6,
     width: 280,
     render: () => <ClientsPanel />,
   },
@@ -64,9 +53,8 @@ const WINDOWS = [
     id: "contact",
     title: "contact.sh",
     label: "Contacts",
-    icon: <IconContact />,
+    icon: <img src="8.png" alt="Contact" />,
     initial: { x: 60, y: 90 },
-    rotate: -1,
     width: 240,
     render: () => <ContactPanel />,
   },
@@ -77,7 +65,6 @@ const WELCOME_WINDOW = {
   id: "welcome",
   title: "diario.txt",
   initial: { x: 200, y: 150 },
-  rotate: -0.9,
   width: 500,
   render: () => <WelcomePanel />,
 };
