@@ -25,9 +25,15 @@ Girati pure tra le finestre. Buona visita.`,
 // automatically. Any field you add (title, description, image, outlet, date)
 // overrides the fetched one. Entries with url "#" are placeholders.
 export const articles = [
-  { url: "#", outlet: "Publication", date: "2025", title: "Article title one", description: "A short line on what this piece is about." },
-  { url: "#", outlet: "Another Outlet", date: "2024", title: "Article title two", description: "A short line on what this piece is about." },
-  // { url: "https://example.com/my-article" },
+  { url: "https://young.it/2026/04/17/iran-e-algoritmi-social-la-geopolitica-trasformata-in-fuffa/" },
+  { url: "https://young.it/2026/04/30/il-porta-a-porta-del-desiderio-come-il-marketing-ha-recintato-il-mondo-femminile-da-avon-ai-fuffaguru-di-tiktok/" },
+  { url: "https://young.it/2026/05/12/il-nuovo-salone-dei-libri-scritti-con-lia/" },
+  { url: "https://www.progressista.io/eurovision-2026-israele-secondo-posto-molto-bene-sal-da-vinci/" },
+  { url: "https://www.progressista.io/sasha-ragazzo-trans-salute-burocrazia-italia/" },
+  { url: "https://young.it/2026/06/13/dante-e-shakespeare-ridotti-a-influencer-da-quattro-soldi-e-ce-pure-la-truffa-spirituale/" },
+  { url: "https://www.progressista.io/la-destra-ha-capito-i-social-meglio-della-sinistra/" },
+  { url: "https://www.progressista.io/caro-bollette-riaccendere-atomo/" },
+  { url: "https://young.it/2026/09/26/i-fratelli-tate-sono-usciti-dal-matrix/" }
 ];
 
 // SOCIALS

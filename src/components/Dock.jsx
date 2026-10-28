@@ -1,6 +1,6 @@
 export default function Dock({ items, onItemClick }) {
   return (
-    <div className="fixed bottom-4 sm:bottom-6 left-0 right-0 z-40 flex justify-center px-80 pointer-events-none">
+    <div className="fixed bottom-4 sm:bottom-6 left-0 right-0 z-40 flex justify-center px-4 pointer-events-none">
       <nav
         className="pointer-events-auto flex items-end gap-2 px-2 py-1.5 rounded-2xl bg-white backdrop-blur-sm border border-chromeline shadow-win"
         aria-label="Window shortcuts"
