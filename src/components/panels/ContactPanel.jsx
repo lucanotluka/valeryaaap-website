@@ -1,25 +1,20 @@
-import { contact } from "../../content";
-
 export default function ContactPanel() {
   return (
-    <div className="w-[220px] sm:w-[240px]">
-      <ul className="flex flex-col divide-y divide-chromeline">
-        {contact.map((c) => (
-          <li key={c.label}>
-            <a
-              href={c.href}
-              target={c.href.startsWith("http") ? "_blank" : undefined}
-              rel="noreferrer"
-              className="group flex items-center justify-between py-2 first:pt-0 last:pb-0"
-            >
-              <span className="font-mono text-xs text-inkfaint">{c.label}</span>
-              <span className="font-body text-[13px] text-ink group-hover:text-accent transition-colors">
-                {c.value}
-              </span>
-            </a>
-          </li>
-        ))}
-      </ul>
+    <div className="flex flex-col items-center gap-3">
+      <img
+        src="/9.png"
+        alt="Contact"
+        draggable={false}
+        className="w-full rounded-md border border-chromeline"
+      />
+      <a
+        href="https://linktr.ee/valeryaaap"
+        target="_blank"
+        rel="noreferrer"
+        className="font-mono text-xs px-4 py-2 rounded-full bg-lavender/60 hover:bg-lavender transition-colors"
+      >
+        linktr.ee/valeryaaap →
+      </a>
     </div>
   );
 }
